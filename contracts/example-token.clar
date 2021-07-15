@@ -37,7 +37,5 @@
 (define-public (get-token-uri)
   (ok (some u"https://example.com")))
 
-;; Mint this token to a few people when deployed
-(ft-mint? example-token u100000000000000 'ST3J2GVMMM2R07ZFBJDWTYEYAR8FZH5WKDTFJ9AHA)
-(ft-mint? example-token u100000000000000 'ST1TWA18TSWGDAFZT377THRQQ451D1MSEM69C761)
-(ft-mint? example-token u12345 'ST50GEWRE7W5B02G3J3K19GNDDAPC3XPZPYQRQDW)
+;; mint to the treasury
+(ft-mint? example-token u100000000000000 'SP32XCD69XPS3GKDEXAQ29PJRDSD5AR643GNEEBXZ)
